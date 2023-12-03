@@ -1,5 +1,5 @@
 if __name__ == "__main__":
-    text = open("day02_test.txt", "r").read().splitlines()
+    text = open("day02.txt", "r").read().splitlines()
     ids = []
     minCubes = 0
     for row in text:
