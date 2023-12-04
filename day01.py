@@ -1,7 +1,7 @@
 import read_fcns as f
 
 if __name__ == "__main__":
-    input = f.read_as_text("day01.txt")
+    input = f.read_as_text("input/day01.txt")
     sum = 0
     for row in input:
         numerals = []

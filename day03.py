@@ -13,7 +13,7 @@ def checkNeighbours(text, idy, idx):
 
 
 if __name__ == "__main__":
-    text = [list(line) for line in open("day03.txt", "r").read().splitlines()]
+    text = [list(line) for line in open("input/day03.txt", "r").read().splitlines()]
     textCopy = copy.deepcopy(text)
     total_sum = 0
     for idy, row in enumerate(text):
