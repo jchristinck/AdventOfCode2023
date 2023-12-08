@@ -1,6 +1,3 @@
-import math
-
-
 def determine_type():
     hand_set = set(hand)
     match len(hand_set):
